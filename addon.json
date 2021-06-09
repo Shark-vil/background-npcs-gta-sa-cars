@@ -1,9 +1,9 @@
 { 
-"title"		:	"Background NPCs - Custom models example module", 
-"type"		:	"npc", 
-"tags"		:	[ "fun", "roleplay" ], 
-"ignore"	: 
-    [ 
+    "title"		:	"Background NPCs vehicles - Grand Theft Auto: San Andreas", 
+    "type"		:	"npc", 
+    "tags"		:	[ "fun", "roleplay" ], 
+    "ignore"	: 
+    [
         "*.psd*", 
         "*.vcproj*", 
         "*.svn*",
@@ -15,5 +15,5 @@
         ".git*",
         ".vscode*",
         "version.txt"
-    ] 
-} 
+    ]
+}
