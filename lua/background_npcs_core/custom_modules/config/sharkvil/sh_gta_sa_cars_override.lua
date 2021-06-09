@@ -65,6 +65,7 @@ citizen.vehicles = {
 }
 
 local taxi_driver = bgNPC.cfg.npcs_template['taxi_driver']
+taxi_driver.vehicles_random_color = false
 taxi_driver.vehicles = {
    'simfphys_gta_sa_cabbie',
    'simfphys_gta_sa_taxi'
