@@ -1,4 +1,5 @@
 local citizen = bgNPC.cfg.npcs_template['citizen']
+citizen.vehicles_random_color = true
 citizen.vehicles = {
    'simfphys_gta_sa_bandito',
    'simfphys_gta_sa_bfinject',
@@ -70,6 +71,7 @@ taxi_driver.vehicles = {
 }
 
 local gangster = bgNPC.cfg.npcs_template['gangster']
+gangster.vehicles_random_color = true
 gangster.vehicles = {
    'simfphys_gta_sa_blade',
    'simfphys_gta_sa_broadway',
