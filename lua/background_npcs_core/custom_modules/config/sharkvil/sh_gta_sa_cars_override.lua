@@ -73,6 +73,18 @@ if IsValidConfig('citizen') then
 	}
 end
 
+if IsValidConfig('racer_driver') then
+	local racer_driver = bgNPC.cfg.npcs_template['racer_driver']
+	racer_driver.vehicles = {
+		'simfphys_gta_sa_elegy',
+		'simfphys_gta_sa_flash',
+		'simfphys_gta_sa_jester',
+		'simfphys_gta_sa_stratum',
+		'simfphys_gta_sa_sultan',
+		'simfphys_gta_sa_uranus'
+	}
+end
+
 if IsValidConfig('taxi_driver') then
 	local taxi_driver = bgNPC.cfg.npcs_template['taxi_driver']
 	taxi_driver.vehicles_strict_color_chance = 0
